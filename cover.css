@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, a{
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}
+
+.container{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: fit-content; /* Example height */
+  background-color: ;
+}
+
+.nav{
+  margin: 20px;
+  margin-bottom: 0px;
+  height: 50px;
+  width: fit-content;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: ;
+}
+
+.nav-link{
+  color: #960816;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+#your_pot{
+  transform: translate(0,-115px);
+}
+
+.context{
+  text-align: center;
+  width: 700px;
+
+  color: white;
+  margin-top: 40px;
+  transform: translate(0,-50px);
+}
+
+#red_bl{
+  transform: translate(0,-30px);
+}
+
+.btn_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 280px;
+  height: 70px;
+
+  margin: 15px;
+}
+
+.btn{
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 400;
+}
+
+#sec4text_wrap{
+  transform: translate(400px,-240px);
+  width: 400px;
+}
+
+.bot_nav{
+  width:300px; 
+  height:300px;
+  margin: 50px;
+  color: white;
+}
+
+picture img {
+  width: 100%; /* Make the image width responsive to the container size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline spacing below the image */
+}
+
+.exp_pic{
+  margin: 10px;
+}
+
+.btn2{
+  margin-top: 20px;
+}
+
+
+.loc{
+  width: 200px;
+  margin: 20px;
+  transform: translate(0px,-20px);
+}
+.loc h3{
+  margin-top: 10px;
+}
+
+
+#bottombar{
+  flex-direction: row; 
+}
+
+#visitus{
+  font-size: 28px; 
+  color:#FFFFFF;
+  font-weight:bold; 
+  margin-left: 20px; 
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+  .nav-link{
+    color: #960816;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center horizontally */
+    align-content: center; /* Center wrapped items vertically */
+    height: fit-content; /* Adjust height as needed */
+    background-color: ;
+  }
+
+  #your_pot{
+  transform: translate(0,-55px);
+  }
+
+  .context{
+  width: 325px;
+  font-size: 12px;
+  margin-top: 25px;
+  transform: translate(0,-10px);
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  #red_bl{
+  transform: translate(0,-5px);
+  }
+
+  #sec4text_wrap{
+  transform: translate(0,-125px);
+  width: 325px;
+  }
+
+  picture img {
+  width: 100%; /* Make the image width responsive to the container size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline spacing below the image */
+  }
+
+  #bigway{
+    height:200px
+  }
+
+  #pages{
+    transform: translate(-100px);
+  }
+
+  #bottombar{
+    flex-direction: column;
+    transform: translate(-30px);
+  }
+
+  .bot_nav{
+  width:300px; 
+  height:550px;
+  margin: 50px;
+  color: white;
+  }
+
+  #visitus{
+  font-size: 28px; 
+  color:#FFFFFF;
+  font-weight:bold; 
+  margin-left: -10px; 
+  margin-bottom: 20px;
+}
+
+}
